@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-#set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_BUILD_TYPE Release)
 project(FirstOrganizedCmake VERSION 1.0)
 
 #C++ VERSION
@@ -20,7 +20,7 @@ if(FIRSTORGANIZEDCMAKE_WITH_EXECUTABLES)
 endif()
 
 #about tests
-option(FIRSTORGANIZEDCMAKE_WITH_TESTS "Compile tests projects" OFF)
+option(FIRSTORGANIZEDCMAKE_WITH_TESTS "Compile tests projects" ON)
 
 if(FIRSTORGANIZEDCMAKE_WITH_TESTS)
 	#Enable testing with Ctest
