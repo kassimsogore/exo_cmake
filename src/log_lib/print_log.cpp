@@ -1,13 +1,11 @@
 #include <iostream>
-#include <log_lib/print_log.h>
-#include <FirstOrganizedCmake.h>
+#include< FirstOrganizedCMakeConfig.h>
+#include<log_lib/print_log.h>
 
-void hello_world(){
-		std::cout << "Hello World!!!!" << std::endl;
+void hello_world() {
+std::cout<< "Hello World!\n" << std::endl;
 }
-
-void print_version(){
-	
-	std::cout << "MAJOR_VERSION = " << FirstOrganizedCmake_VERSION_MAJOR << std::endl;
-	std::cout << "MINOR_VERSION = " << FirstOrganizedCmake_VERSION_MINOR << std::endl;
+void print_version() {
+std::cout<< "project version is "<< FirstOrganizedCMake_VERSION_MAJOR << "."
+<< FirstOrganizedCMake_VERSION_MINOR << std::endl;
 }

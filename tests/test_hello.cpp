@@ -1,7 +1,7 @@
-#include <log_lib/print_log.h>
+#include<log_lib/print_log.h>
 
-int main(){
-		
-		hello_world();
-		return 0;
+int main()
+{
+hello_world();
+return 0;
 }
