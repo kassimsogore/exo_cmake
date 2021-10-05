@@ -1,0 +1,2 @@
+#define FirstOrganizedCmake_VERSION_MAJOR @FirstOrganizedCmake_VERSION_MAJOR@
+#define FirstOrganizedCmake_VERSION_MINOR @FirstOrganizedCmake_VERSION_MINOR@
